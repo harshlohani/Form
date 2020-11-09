@@ -10,73 +10,70 @@
 
 <body>
     <form action="results.html" method="GET" enctype="multipart/form-data">
-       <div class="filling area">
-        <div>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" required>
-        </div>
-        <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
-        </div>
-        <div>
-            <label for="age">Age</label>
-            <input type="number" name="age" id="age" min="1" max="100" step="1">
-        </div>
-        <div>
-            <label for="date">Birthdate</label>
-            <input type="date" name="date" id="date" min="1920-06-10">
-        </div>
-    
-        <div>
-            Gender
+      
             <div>
-                <label for="male">Male</label>
-                <input type="radio" name="gender" id="male" value="male">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
             </div>
             <div>
-                <label for="female">Female</label>
-                <input type="radio" name="gender" id="female" value="female">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
             </div>
-            <div><label for="Other">Other</label>
-                <input type="radio" name="gender" id="Other" value="Other">
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="1" max="100" step="1">
             </div>
-        </div>
-        <div>
-            <label for="eyeColor">Favourite Color</label>
-            <select name="Color" id="Color" multiple>
-                <option label="Green" value="Green">Green</option>
-                <option label="Red" value="Red"></option>
-                <option label="Blue" value="Blue"></option>
-                <option label="Black" value="Black"></option>
-                <option label="Brown" value="Brown"></option>
-                <option label="Violet" value="Violet"></option>
-                <option label="Orange" value="Orange"></option>
-            </select>
-        </div>
-       
-        <input type="hidden" name="hidden" value="hi">
-        <div>
-            <label for="file">File</label>
-            <input id="file" type="file" name="file">
-        </div>
-        <div>
-            <label for="phone">Phone</label>
-            <input type="tel" name="phone" id="phone">
-        </div>
-        <div>
-            <label for="url">URL</label>
-            <input type="url" name="url" id="url">
-        </div>
-        <div>
-            <label>
-                Password
-                <input type="password" name="password" required>
-            </label>
-        </div>
-        <button type="reset">Reset</button>
-        <button type="submit">Submit</button>
-       </div> 
+            <div>
+                <label for="date">Birthdate</label>
+                <input type="date" name="date" id="date" min="1920-06-10">
+            </div>
+        
+            <div>
+                Gender
+                <div>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                </div>
+                <div>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                </div>
+                <div><label for="Other">Other</label>
+                    <input type="radio" name="gender" id="Other" value="Other">
+                </div>
+            </div>
+            <div>
+                <label for="favcolor">Favourite Color</label>
+                <select name="Color" id="Color" multiple>
+                    <option label="Green" value="Green">Green</option>
+                    <option label="Red" value="Red"></option>
+                    <option label="Blue" value="Blue"></option>
+                    <option label="Black" value="Black"></option>
+                    <option label="Brown" value="Brown"></option>
+                    <option label="Violet" value="Violet"></option>
+                    <option label="Orange" value="Orange"></option>
+                </select>
+            </div>
+            <div>
+                <label for="file">File</label>
+                <input id="file" type="file" name="file">
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <div>
+                <label for="url">URL</label>
+                <input type="url" name="url" id="url">
+            </div>
+            <div>
+                <label>
+                    Password
+                    <input type="password" name="password" required>
+                </label>
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
         
     </form>
 </body>
