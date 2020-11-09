@@ -1,0 +1,15 @@
+body
+{   font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin: 50%;
+    margin-left: 25%;
+    background-color: black; filter: brightness(50%);
+    filter: brightness(100%);
+    color: blanchedalmond;
+} 
+.filling_area{
+    padding: 125px;
+    border: 10px solid #4CAF50;
+    background-color: chartreuse;
+}
