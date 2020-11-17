@@ -1,12 +1,6 @@
-* { display: flexbox;
-    box-sizing:border-box;
-    border-color: aliceblue;
-    padding: 2px;
-  }
+
 body{
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
+    display: flex;
     margin-top: 5%;
     margin-bottom: 10%;
     margin-left: 25%;
@@ -15,11 +9,12 @@ body{
     color: blanchedalmond;
 } 
 fieldset {
+    
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    width: 50%;
+    width: 25%;
     border-color: blue;
     padding: 10px;
     padding-bottom: 25px;
@@ -34,6 +29,7 @@ fieldset {
 }
 .Gender{
     padding-left: 40px;
+    color: rgb(253, 188, 128);
 }
 input{
     margin: 10px;
@@ -42,16 +38,29 @@ input{
     padding: 10px;
     background-color: black(115, 40, 214);
     color: white;
-    filter: brightness(80%);
+    filter: brightness(90%);
     margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
 }
 #Color{
 padding: 3px;
-background-color: darkgray;
-color: darkred;
+background-color: wheat;
+color: black;
+
 font-style: italic;
-font-weight: 900;
+font-weight: 900 !important;
 font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    margin-top:5px;
+    margin-left: 20%;
+    border-radius: 10%;
+}
+.reset,.submit{
+margin-left: 20px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.reset,.submit:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
